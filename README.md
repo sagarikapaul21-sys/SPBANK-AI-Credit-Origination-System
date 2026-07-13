@@ -1,186 +1,285 @@
-# SPBANK-AI-Credit-Origination-System
-AI-assisted MSME Loan Origination System prototype demonstrating end-to-end digital lending, credit appraisal, CAM generation, and workflow automation for banking.
-Here's a professional **README.md** you can use for your GitHub repository.
+# SPBANK AI Credit Origination System
+
+> AI-assisted MSME Loan Origination System prototype demonstrating end-to-end digital lending, credit appraisal, workflow automation, and business process transformation for MSME lending.
 
 ---
 
-# SPBANK AI Credit Origination System
-
-## Overview
+# Overview
 
 The **SPBANK AI Credit Origination System** is a conceptual digital banking solution designed to demonstrate how Artificial Intelligence can transform the end-to-end MSME loan origination process while maintaining regulatory compliance, credit governance, and human oversight.
 
-This project showcases a modern AI-assisted lending journey—from customer onboarding and document collection to regulatory verification, financial analysis, credit appraisal, Credit Approval Memorandum (CAM) generation, and approval workflows.
+The solution showcases a modern AI-assisted lending journey—from customer onboarding and intelligent document collection to regulatory verification, financial analysis, AI-assisted credit appraisal, and Credit Approval Memorandum (CAM) generation.
+
+Rather than replacing human decision-making, the system is designed to assist Credit Officers by automating repetitive tasks, providing intelligent recommendations, and improving operational efficiency while ensuring that all lending decisions remain under authorised human approval.
 
 ---
 
-## Business Objective
+# Project Status
 
-To design a next-generation MSME loan origination platform that:
+📌 **Conceptual Solution Design & Interactive Prototype**
 
-* Digitises customer onboarding using conversational AI.
-* Automates document collection and validation.
-* Performs AI-assisted regulatory verification.
-* Supports financial statement and credit risk analysis.
-* Assists credit officers with policy-driven credit appraisal.
-* Generates Credit Approval Memorandums (CAM).
-* Maintains complete audit trails and human approval for all lending decisions.
+This repository demonstrates business processes, system workflows, user journeys, AI-assisted decision support, and business solution design for an MSME Loan Origination System.
+
+It is intended to showcase digital banking transformation concepts and solution architecture rather than a production-ready banking application.
 
 ---
 
-## Key Modules
+# Business Objective
 
-### Sprint 1 – Customer Authentication
+To design a next-generation MSME Loan Origination System capable of:
 
-* Existing customer login
-* New customer registration
-* OTP-based authentication
-* Customer dashboard
-
-### Sprint 2A – AI Conversational Loan Application
-
-* AI-guided customer onboarding
-* One-question-at-a-time conversation
-* Application progress tracking
-* Save and resume functionality
-
-### Sprint 2B – Intelligent Document Upload
-
-* Guided document collection
-* Mandatory document validation
-* Upload status tracking
-
-### Sprint 3A – AI Regulatory Verification
-
-* PAN verification
-* Aadhaar verification
-* GST verification
-* Udyam verification
-* ITR verification
-* Internal banking validation
-
-### Sprint 3B – Branch Credit Officer Workbench
-
-* Pending application dashboard
-* Customer profile
-* AI verification summary
-* Personal verification workflow
-* Officer remarks and audit trail
-
-### Sprint 3C – Customer Status Tracking
-
-* Application reference number
-* Status updates
-* SMS and dashboard notifications
-
-### Sprint 4 – AI Financial Analysis
-
-* Financial statement analysis
-* Cash flow analysis
-* Financial ratio calculation
-* Repayment capacity assessment
-* Collateral assessment
-* RAM risk rating
-* AI-assisted credit appraisal
-
-### Sprint 4A – Credit Bureau Verification
-
-* Customer consent management
-* Bureau enquiry payment simulation
-* Retail & Commercial bureau assessment
-* CIBIL/CRIF fallback logic
-* Policy-based eligibility screening
-* Interest rate recommendation
-* AI bureau summary
-
-### Future Enhancements
-
-* Credit Approval Memorandum (CAM) generation
-* Sanction workflow
-* Digital documentation
-* e-Sign integration
-* Loan disbursement
-* Post-disbursement monitoring
-* Early Warning Signal (EWS) monitoring
-* AI Governance & Kill Switch
-* Portfolio analytics with Power BI
+- Digitising customer onboarding using Conversational AI
+- Automating document collection and validation
+- Performing AI-assisted regulatory verification
+- Supporting financial statement and credit risk analysis
+- Assisting Credit Officers with policy-driven credit appraisal
+- Generating Credit Approval Memorandums (CAM)
+- Maintaining complete audit trails
+- Supporting configurable credit policies
+- Ensuring Human-in-the-Loop (HITL) decision making for all lending approvals
 
 ---
 
-## Business Process
+# Key Modules
+
+## Sprint 1 – Customer Authentication
+
+- Existing Customer Login
+- New Customer Registration
+- OTP-based Authentication
+- Secure Customer Dashboard
+
+---
+
+## Sprint 2A – Conversational AI Loan Application
+
+- AI-guided customer onboarding
+- One-question-at-a-time conversation
+- Save and Resume functionality
+- Application Progress Tracking
+- Customer-friendly conversational interface
+
+---
+
+## Sprint 2B – Intelligent Document Upload
+
+- Guided document upload
+- Mandatory document validation
+- Upload progress tracking
+- Intelligent document checklist
+
+---
+
+## Sprint 3A – AI Regulatory Verification
+
+- PAN Verification
+- Aadhaar Verification
+- GST Verification
+- GST Return Validation
+- Udyam Registration Verification
+- ITR Verification
+- Internal Banking Validation
+
+---
+
+## Sprint 3B – Branch Credit Officer Workbench
+
+- Pending Applications Dashboard
+- Customer Profile
+- AI Verification Summary
+- Personal Verification Workflow
+- Officer Remarks
+- Audit Trail
+- Customer Contact Management
+
+---
+
+## Sprint 3C – Customer Status Tracking
+
+- Application Reference Number
+- Application Status
+- Dashboard Notifications
+- SMS Notifications
+- Branch Verification Status
+
+---
+
+## Sprint 4 – AI Financial Analysis
+
+- Balance Sheet Analysis
+- Profit & Loss Analysis
+- Cash Flow Analysis
+- Financial Ratio Analysis
+- Working Capital Assessment
+- Collateral Assessment
+- RAM Risk Rating
+- AI-assisted Credit Appraisal
+
+---
+
+## Sprint 4A – Credit Bureau Verification
+
+- Customer Consent Management
+- Bureau Enquiry Payment Simulation
+- Retail CIBIL Assessment
+- Commercial CIBIL Assessment
+- CRIF Fallback Logic
+- Policy-driven Eligibility Screening
+- Interest Rate Recommendation
+- AI Bureau Summary
+- Risk Flagging
+
+---
+
+# Business Process
+
+The proposed MSME loan origination workflow consists of the following stages:
+
+1. Customer Authentication
+2. AI Conversational Loan Application
+3. Intelligent Document Upload
+4. AI Regulatory Verification
+5. Credit Bureau Verification
+6. Financial Statement Analysis
+7. Cash Flow Analysis
+8. Financial Ratio Analysis
+9. Collateral Assessment
+10. RAM Risk Rating
+11. AI-assisted Credit Appraisal
+12. Credit Approval Memorandum (CAM)
+13. Credit Officer Review
+14. Sanction Workflow
+
+Detailed BPMN process diagrams are included throughout this repository.
+
+---
+
+# Process Flow
+
+### Figure 1 – Customer Authentication & Secure Onboarding Workflow
+
+This BPMN process flow illustrates the secure onboarding journey for both existing and new MSME customers, including credential validation, OTP authentication, customer registration, and secure access to the AI-powered loan application.
+
+<img width="1262" height="570" alt="Customer Authentication Workflow" src="https://github.com/user-attachments/assets/8f889fd8-9b94-4d92-906b-3ddb4171b75b" />
+
+---
+
+# Skills Demonstrated
+
+- Digital Banking Transformation
+- MSME Lending
+- Loan Origination Systems (LOS)
+- Business Analysis
+- Business Process Analysis
+- Business Requirements Gathering
+- BPMN Process Modelling
+- Credit Risk Assessment
+- Financial Statement Analysis
+- Cash Flow Analysis
+- Credit Policy Automation
+- AI-assisted Decision Support
+- Workflow Automation
+- Banking Operations
+- Product Thinking
+- Solution Design
+- Human-in-the-Loop AI
+- Digital Lending
+
+---
+
+# Tools & Technologies
+
+- Lovable (No-Code Prototyping)
+- Gliffy (BPMN Process Modelling)
+- Microsoft Excel (Mock Banking Data)
+- Power BI (Planned Portfolio Analytics)
+- GitHub
+- Generative AI
+
+---
+
+# Future Scope
+
+The following capabilities have been designed conceptually and documented as part of the proposed solution architecture:
+
+- Credit Approval Memorandum (CAM)
+- Sanction Workflow
+- Loan Documentation
+- e-Sign Integration
+- Loan Disbursement
+- Post-disbursement Monitoring
+- Early Warning Signal (EWS) Monitoring
+- AI Governance Framework
+- AI Kill Switch
+- Portfolio Analytics Dashboard
+- Relationship Manager Dashboard
+- Branch Manager Approval Workflow
+
+---
+
+# Repository Structure
 
 ```
-Customer Authentication
-        ↓
-AI Loan Assistant
-        ↓
-Document Upload
-        ↓
-AI Regulatory Verification
-        ↓
-Credit Bureau Verification
-        ↓
-Financial Analysis
-        ↓
-Collateral Assessment
-        ↓
-RAM Risk Rating
-        ↓
-AI Credit Appraisal
-        ↓
-Credit Approval Memorandum (CAM)
-        ↓
-Credit Officer Review
-        ↓
-Sanction Workflow
+SPBANK-AI-Credit-Origination-System
+│
+├── README.md
+├── docs
+│   ├── Process Flows
+│   ├── Solution Architecture
+│   ├── Business Requirements
+│   └── Screenshots
+│
+├── data
+│   └── Fictional MSME Banking Dataset
+│
+├── assets
+│   └── Images
+│
+└── Power BI
+    └── Dashboard (Planned)
 ```
 
 ---
 
-## Skills Demonstrated
+# Disclaimer
 
-* Digital Banking Transformation
-* MSME Lending
-* Loan Origination Systems (LOS)
-* Business Process Analysis
-* Business Requirements Gathering
-* BPMN Process Modelling
-* Credit Risk Assessment
-* Financial Statement Analysis
-* AI-assisted Decision Support
-* Credit Policy Automation
-* Workflow Design
-* Banking Operations
-* Product Thinking
-* Solution Design
+This project is a conceptual solution design and interactive prototype created solely for learning, portfolio, and demonstration purposes.
+
+All customer records, financial statements, bureau reports, loan accounts, banking documents, and datasets are entirely fictional and have been created exclusively to demonstrate AI-assisted digital lending workflows.
+
+No production banking systems, real customer information, or third-party services are connected to this prototype.
 
 ---
 
-## Tools & Technologies
+# About the Project
 
-* Lovable (No-Code Prototyping)
-* Gliffy (Process Modelling)
-* Excel (Mock Banking Data)
-* Power BI (Planned Analytics)
-* GitHub
-* Generative AI
+This project reflects my interest in Digital Banking Transformation, MSME Lending, Credit Risk Management, and AI-assisted decision support within regulated financial institutions.
 
----
+The solution demonstrates how Artificial Intelligence can assist banks by automating customer onboarding, document verification, regulatory compliance, financial analysis, and credit appraisal while ensuring that final lending decisions remain with authorised bank officials.
 
-
-Figure 1. Customer Authentication & Secure Onboarding Workflow
-<img width="1262" height="570" alt="AI Assistant loan origination system first gliffy diagram" src="https://github.com/user-attachments/assets/8f889fd8-9b94-4d92-906b-3ddb4171b75b" />
-
-## Disclaimer
-
-This project is a conceptual prototype created solely for learning and portfolio purposes.
-
-All customer records, financial statements, loan accounts, bureau reports, documents, and banking data are fictional and intended only to demonstrate AI-assisted digital lending workflows. No real customer information or live banking systems are used.
+The repository is intended to showcase solution design, business analysis, workflow modelling, and digital banking transformation concepts commonly used in modern Loan Origination Systems.
 
 ---
 
-## About the Project
+# Author
+
+**Sagarika Paul**
+
+Banking professional with experience in Credit Risk, MSME Lending, Business Analysis, and Digital Banking Transformation.
+
+**Areas of Interest**
+
+- Digital Banking
+- MSME Lending
+- Credit Risk Management
+- AI in Banking
+- Business Analysis
+- Product Management
+- Digital Transformation
+- Banking Technology
 
 ---
 
-This README will present your repository as a **business solution portfolio** rather than just a prototype, which is exactly the perspective recruiters for Digital Banking Consultant, Business Analyst, and BFSI Transformation roles are looking for.
+# License
+
+This repository is intended for educational, research, and professional portfolio purposes only.
