@@ -1,3 +1,7 @@
+Status: 🚧 Active Portfolio Project
+
+This repository is actively being enhanced. Additional modules such as Credit Bureau Verification, Financial Analysis, Credit Approval Memorandum (CAM), and Sanction Workflow will be added in future iterations.
+
 # SPBANK AI Credit Origination System
 
 > AI-assisted MSME Loan Origination System prototype demonstrating end-to-end digital lending, credit risk assessment, workflow automation, and business process transformation for MSME lending.
