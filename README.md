@@ -65,6 +65,7 @@ The proposed MSME loan origination workflow consists of the following stages:
 14. Sanction Workflow
 
 The solution follows a **Human-in-the-Loop (HITL)** approach where Artificial Intelligence performs verification, analysis, and recommendations while all lending decisions remain with authorised bank officials.
+<img width="3210" height="3988" alt="Architecture Diagram AI LOS" src="https://github.com/user-attachments/assets/bbad5874-a007-4fc7-bc0a-580593b13798" />
 
 ---
 
