@@ -270,45 +270,7 @@ This BPMN process flow illustrates the secure onboarding journey for both existi
 
 ---
 
-# Future Scope
 
-The following capabilities have been designed conceptually and may be incorporated into future iterations:
-
-- Loan Documentation Automation
-- e-Sign Integration
-- Loan Disbursement Workflow
-- Post-Disbursement Monitoring
-- Early Warning Signal (EWS) Monitoring
-- Portfolio Risk Dashboard
-- Relationship Manager Dashboard
-- Branch Manager Dashboard
-- AI Governance Framework
-- AI Kill Switch
-- Portfolio Analytics with Power BI
-
----
-
-# Repository Structure
-
-```
-SPBANK-AI-Credit-Origination-System
-│
-├── README.md
-│
-├── docs
-│   ├── Process Flows
-│   ├── Business Requirements
-│   ├── Solution Architecture
-│   └── Screenshots
-│
-├── data
-│   └── Fictional MSME Banking Dataset.xlsx
-│
-├── assets
-│   └── Images
-│
-└── Power BI
-    └── Dashboard (Planned)
 ```
 
 ---
